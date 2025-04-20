@@ -326,7 +326,7 @@ What we did above was a very cursory threat profiling exercise, which is to gaug
 
 ## How To Do Basic Threat Profiling
 
-![Threat Profiling Process](media/image2.png)
+![Threat Profiling Process](media/PCD_image_1.png)
 
 As what we have done, you have listed the key information that helped you:
 
@@ -360,7 +360,7 @@ While we can go deeper into threat profiling, the goal of this book is not to pr
 
 ## Identifying Key IT Assets
 
-![Identifying IT Assets](media/image3.png)
+![Identifying IT Assets](media/PCD_Image_2.png)
 
 After identifying the key areas of concern of the organisation in general, we then need to break down the key assets that are essential to the three most important things above. On top of that, every organisation has distinct business goals, whether it's maintaining uninterrupted operations, delivering quality products or services, or protecting customer trust. These goals provide the lens through which you can identify your business-critical assets. These may include:
 
@@ -380,7 +380,7 @@ But to deepen our understanding, it is important to not focus on the IT assets f
 
 To go through the practice, we need to start with the business goals, which are organised in such a way that we need to name it, identify the people who are in-charge of it, and the revenue channels it is related to. For more organisationally wide goals such as human resource, governance, and legal frameworks, it is important to specify which revenue channels it affects the most. That would help to identify the business impact as well.
 
-![Business Goals Framework](media/image4.png)
+![Business Goals Framework](media/PCD_Image_3.png)
 
 In the example version of the Practical Cyber Framework, we highlighted a common, almost-too-generic goal of "Maintaining and Increasing Core Revenue". Though this can be applied to every organisation, the key differences lie in the fact that it should be tied to specific revenue channels and need to be meaningfully measured. The reason why the people in-charge (I/Cs) are important is because they are often also the biggest target points for cyber-attacks and have access to sensitive information.
 
@@ -460,13 +460,13 @@ Why do we choose **Zero-Trust Architecture**? The core pillars of ZTA are simple
 
 However, before we start going into each section, we will dive into how to use the **Practical Cyber Framework** to write out different parts to create an understanding of the cybersecurity posture of the organisation.
 
-![Practical Cyber Framework](media/image5.png)
+![Practical Cyber Framework](media/PCD_Image_4.png)
 
 There is a User Experience Design process called **Rose, Bud, Thorn**, where we talk about what is going well (Rose), what are the potential places for improvement (Bud) and what are the limitations (Thorn). We discovered this to be a great way to create honest conversations around the risk we are willing to take on when it comes to cybersecurity.
 
 In the example version of the framework, we would cite that 2-factor authentication (2FA) is turned on, that using Microsoft 365 Enterprise allows each individual to have their own identity, and that the company issues individual laptops with basic Single-Sign-On features internally. These are great starting points to work from that allows security to be built onto the existing features that the organisation has in terms of Identity.
 
-![Identity Framework Details](media/image6.png)
+![Identity Framework Details](media/PCD_Image_5.png)
 
 The buds are areas to improve on, for example, that the online SaaS accounts are using common accounts rather than individual accounts (such as HR Management software) because only 2-3 people have access to this account and there is an unwillingness to pay for full features. There is also a lack of a third portion for Multi-Factor Authentication (MFA) like authentication key or mobile-based challenges due to a lack of features in their current set-up. Also, the hierarchy of access to certain data is not tiered effectively in terms of digital identity, which also presents a risk that someone might have access to data that they should not have. This visibility allows the organisation to weigh the risks according to the sensitivity of data and the urgency of the problem.
 
@@ -548,7 +548,7 @@ The **ZTA**, an approach gaining significant traction, takes identity management
 
 3. **Segmentation**: Resources are segmented so that even authenticated users have limited access, reducing exposure in case of a breach. This also reduces the potential for insider threat as there is limited access for people who do not need the access.
 
-![Identity Framework](media/image7.png)
+![Identity Framework](media/PCD_Image_6.png)
 
 ## Practical Steps to Strengthen Identity
 
@@ -625,7 +625,7 @@ Devices act as gateways between your users and your business systems. Whether it
 
 4. **Shadow IT**: Unapproved personal devices or applications used for work can bypass security measures, exposing sensitive data.
 
-![Device Security Framework](media/image7.png)
+![Device Security Framework](media/PCD_Image_7.png)
 
 ## A Comprehensive Approach to Device Protection
 
@@ -721,7 +721,7 @@ Networks are inherently interconnected, and this connectivity brings both benefi
 
 To protect against these risks, organisations must adopt a proactive and layered approach to network security.
 
-![Network Security Framework](media/image8.png)
+![Network Security Framework](media/PCD_Image_8.png)
 
 ## Core Principles of Network Security
 
@@ -851,7 +851,7 @@ Applications often handle sensitive data, connect to critical systems, and opera
 
 - **Compliance Violations**: Applications that fail to meet regulatory standards can result in imposition of fines and other legal consequences. Especially if discovered by a third party and reported to the organisation, there could be regulatory fines or other impact on the organisation.
 
-![Application Security Framework](media/image8.png)
+![Application Security Framework](media/PCD_Image_9.png)
 
 ## Core Principles of Application Security
 
@@ -999,7 +999,7 @@ Data breaches and leaks can lead to devastating consequences, including:
 
 - **Financial Loss**: Intellectual property theft, fraud, and legal costs can significantly impact profitability.
 
-![Data Security Framework](media/image8.png)
+![Data Security Framework](media/PCD_Image_10.png)
 
 ## Core Principles of Data Security
 

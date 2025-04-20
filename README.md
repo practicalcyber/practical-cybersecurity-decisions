@@ -49,7 +49,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 2. **Explore the Framework**
    - Review the documentation.
-   - Implement the methodologies in your security environment.
+   - Map out the structure of your organization's structure and unique circumstance.
    - Customize it based on your organization's needs.
 
 3. **Contribute**
